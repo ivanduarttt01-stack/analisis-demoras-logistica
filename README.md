@@ -99,34 +99,3 @@ A partir del análisis se identificaron los siguientes patrones:
 | Media | Implementar una alerta operativa ante lluvia y tráfico alto. | Reasignar pedidos antes de que se acumulen demoras. |
 | Media | Revisar el SLA prometido en rutas periféricas. | Alinear la expectativa del cliente con la capacidad real. |
 
----
-
-## Herramientas utilizadas
-
-- **SQL / PostgreSQL:** creación de tablas y consultas de indicadores.
-- **Python:** procesamiento de datos y análisis.
-- **Pandas:** limpieza, transformación y agregación de datos.
-- **Matplotlib:** generación de visualizaciones.
-- **Git y GitHub:** control de versiones y publicación del proyecto.
-
----
-
-## Estructura del repositorio
-
-```text
-├── data/
-│   ├── raw/
-│   │   └── README.md
-│   └── data_dictionary.md
-├── docs/
-│   └── caso_negocio.md
-├── sql/
-│   ├── 01_create_tables.sql
-│   ├── 02_kpis_operativos.sql
-│   └── 03_analisis_demoras.sql
-├── src/
-│   ├── generate_data.py
-│   └── analysis.py
-├── outputs/
-├── requirements.txt
-└── README.md
